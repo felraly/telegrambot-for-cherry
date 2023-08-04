@@ -1,0 +1,9 @@
+from cgi import test
+from cgitb import text
+import telegram
+import asyncio
+
+bot = telegram.Bot(token='6321575706:AAFdH-lVl5r3Ai0DhFlQHsyt_mK0dpakMnc')
+chat_id = 6042755573
+
+asyncio.run (bot.send_message (chat_id = chat_id,text = "python test"))
