@@ -5,6 +5,8 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "telegrambot for cherry", "telegrambot for cherry\telegrambot for cherry.pyproj", "{64C4AC13-8DD5-41C1-ABDF-C4B50862656C}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonApplication2", "PythonApplication2\PythonApplication2.pyproj", "{C11A3224-579F-4B72-824F-CAECD70B4563}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,8 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{64C4AC13-8DD5-41C1-ABDF-C4B50862656C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{64C4AC13-8DD5-41C1-ABDF-C4B50862656C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C11A3224-579F-4B72-824F-CAECD70B4563}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C11A3224-579F-4B72-824F-CAECD70B4563}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

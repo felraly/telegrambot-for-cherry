@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>64c4ac13-8dd5-41c1-abdf-c4b50862656c</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>telegrambot_for_cherry.py</StartupFile>
+    <StartupFile>'노' 자동 경고.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="telegrambot_for_cherry.py" />
+    <Compile Include="%27노%27 자동 경고.py">
+      <Publish>True</Publish>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
