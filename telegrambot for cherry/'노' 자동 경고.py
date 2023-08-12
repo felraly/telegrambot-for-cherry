@@ -1,4 +1,4 @@
-# -*- coding: euc-kr -*-
+# -*- coding: utf-8 -*-
 import sys
 import io
 
@@ -11,24 +11,24 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, CallbackContex
 
 
 
-# ÅÚ·¹±×·¥ º¿ÀÇ ÅäÅ«À» ÀÔ·ÂÇÏ¼¼¿ä
+# í…”ë ˆê·¸ë¨ ë´‡ì˜ í† í°ì„ ì…ë ¥í•˜ì„¸ìš”
 TOKEN = '6321575706:AAFdH-lVl5r3Ai0DhFlQHsyt_mK0dpakMnc'
 
 def start(update, context):
-    update.message.reply_text('¾È³çÇÏ¼¼¿ä! "³ë" °ü·Ã ¸Ş½ÃÁö¿¡ °æ°í°¡ Ãâ·ÂµË´Ï´Ù.')
+    update.message.reply_text('ì•ˆë…•í•˜ì„¸ìš”! "ë…¸" ê´€ë ¨ ë©”ì‹œì§€ì— ê²½ê³ ê°€ ì¶œë ¥ë©ë‹ˆë‹¤.')
 
 def message_handler(update: Update, context: CallbackContext):
     text = update.message.text.lower()
-    if text.endswith('³ë'):
+    if text.endswith('ë…¸'):
         update.message.reply_text('/warn')
 
 def test(update: Update, context: CallbackContext):
     user_name = update.message.from_user.name
     update.message.reply_text(f'/warn {user_name}')
 
-# ¸ŞÀÎ ÇÔ¼ö
+# ë©”ì¸ í•¨ìˆ˜
 def main():
-    # ·Î±ë ¼³Á¤
+    # ë¡œê¹… ì„¤ì •
     logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
 def main():
