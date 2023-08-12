@@ -12,10 +12,11 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, CallbackContex
 
 
 # 텔레그램 봇의 토큰을 입력하세요
-TOKEN = '6321575706:AAFdH-lVl5r3Ai0DhFlQHsyt_mK0dpakMnc'
+TOKEN = '6112482376:AAHkF-Exg8lerMiOXrorViF1FwXEzw6HPPA'
 
 def start(update, context):
     update.message.reply_text('안녕하세요! "노" 관련 메시지에 경고가 출력됩니다.')
+    update.massage.text
 
 def message_handler(update: Update, context: CallbackContext):
     text = update.message.text.lower()
