@@ -19,12 +19,13 @@ def start(update, context):
 
 def message_handler(update: Update, context: CallbackContext):
     text = update.message.text.lower()
-    if text.endswith('노'):
-        update.message.reply_text('/warn')
+    if text.endswith('노') and not text.endswith('야노'):
+       update.message.reply_text('@JunetoAugust @Cherry902040 @RyjiOlllllllllllllllllllllllllll @Ahndangdang \n 너... 썼구나...?') 
+        
 
 def test(update: Update, context: CallbackContext):
     user_name = update.message.from_user.name
-    update.message.reply_text(f'/warn {user_name}')
+    
 
 # 메인 함수
 def main():
