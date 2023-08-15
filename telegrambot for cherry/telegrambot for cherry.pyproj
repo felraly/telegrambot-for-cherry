@@ -4,13 +4,14 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>64c4ac13-8dd5-41c1-abdf-c4b50862656c</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>'노' 자동 경고.py</StartupFile>
+    <StartupFile>끊어치기 경고.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>telegrambot for cherry</Name>
     <RootNamespace>telegrambot for cherry</RootNamespace>
+    <IsWindowsApplication>False</IsWindowsApplication>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -24,6 +25,9 @@
     <Compile Include="%27노%27 자동 경고.py">
       <Publish>True</Publish>
     </Compile>
+    <Compile Include="경고및 밴.py" />
+    <Compile Include="끊어치기 경고.py" />
+    <Compile Include="챗수 및 미디어 수.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
