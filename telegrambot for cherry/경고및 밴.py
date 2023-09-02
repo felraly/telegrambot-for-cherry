@@ -22,10 +22,6 @@ def update_chat_stats(update: Update, context: CallbackContext):
     elif update.message.photo or update.message.document or update.message.audio:
         GROUP_CHAT_STATS[user_id]['media_count'] += 1
 
-    # 현재 사용자의 채팅 및 미디어 수 표시
-    text_count = GROUP_CHAT_STATS[user_id]['text_count']
-    media_count = GROUP_CHAT_STATS[user_id]['media_count']
-    update.message.reply_text(f'현재 {text_count}개의 텍스트와 {media_count}개의 미디어를 보냈습니다.')
 
 
 def user_info(update: Update, context: CallbackContext):

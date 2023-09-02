@@ -12,7 +12,7 @@ def update_chat_stats(update: Update, context: CallbackContext):
     user_id = update.message.from_user.id
 
 def remove_special_chars(text):
-    return re.sub(r'[^\w\s]', '', text)  # 특수 문자 제거
+    return re.sub(r'[^\w\s+\u314b]', '', text)  # 특수 문자 제거
 
 def warn(update: Update, context: CallbackContext):
     user_id = update.message.from_user.id

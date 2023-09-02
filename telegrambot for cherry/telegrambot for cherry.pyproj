@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>64c4ac13-8dd5-41c1-abdf-c4b50862656c</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>끊어치기 경고.py</StartupFile>
+    <StartupFile>클래스1.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -26,8 +26,10 @@
       <Publish>True</Publish>
     </Compile>
     <Compile Include="경고및 밴.py" />
-    <Compile Include="끊어치기 경고.py" />
+    <Compile Include="끊어치기 경고%28봉인%29.py" />
     <Compile Include="챗수 및 미디어 수.py" />
+    <Compile Include="경고한도.py" />
+    <Compile Include="클래스1.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
